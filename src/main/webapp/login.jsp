@@ -12,6 +12,7 @@
 <%@include file="partials/head.html"%>
 <body>
 <%@include file="partials/navbar.html"%>
+
 <form style="width:500px;margin: 0 auto" class="my-5" method="POST" action="/login.jsp">
     <div class="form-group">
         <label for="userName">User name</label>

@@ -1,8 +1,9 @@
 import java.io.*;
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-public class ServerletTest extends HttpServerlet {
+public class ServletTest extends HttpServlet {
 
 
     @WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello-world")
